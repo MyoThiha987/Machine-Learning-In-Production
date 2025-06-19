@@ -1,0 +1,22 @@
+[project]
+name = "test-poetry"
+version = "0.0.1"
+description = "this is poetry env test"
+authors = [
+    {name = "liam",email = "luciferthiha881997@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.32.4"
+tensorflow = "^2.19.0"
+
