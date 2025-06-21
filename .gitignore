@@ -1,0 +1,16 @@
+*.json
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv/
+
+# Ignore system files
+.DS_Store
+
+02_Prod_Dev_Envs_Setup/test_env_one/credential/

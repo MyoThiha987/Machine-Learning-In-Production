@@ -7,6 +7,8 @@ name = "pypi"
 
 [dev-packages]
 tensorflow = "==2.16.1"
+opencv-python = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.12"
